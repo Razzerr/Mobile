@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Not important"
+            android:id="@+id/imageButton" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/not_important" android:onClick="btnChangePriotiyToLow"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Quite important"
+            android:id="@+id/imageButton2" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:background="@drawable/semi_important"
+            android:onClick="btnChangePriotiyToMid"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Very important"
+            android:id="@+id/imageButton3"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.498" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2" android:background="@drawable/very_important"
+            android:onClick="btnChangePriotiyToHigh"/>
+    <TextView
+            android:text="Importance:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbImportance" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/imageButton3"/>
+    <TextView
+            android:text="Due:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbDue" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/lbImportance"/>
+    <TextView
+            android:text="_importance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txImportance"
+            app:layout_constraintStart_toEndOf="@+id/lbImportance" android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            android:minWidth="100dp"/>
+    <TextView
+            android:text="_due"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txDue" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txImportance"
+            app:layout_constraintStart_toEndOf="@+id/lbImportance"
+            android:layout_marginStart="20dp" android:minWidth="100dp"/>
+    <Button
+            android:text="Due date"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDate" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/txImportance" android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" android:onClick="btnDate"/>
+    <Button
+            android:text="Accept"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAccept" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:onClick="btnAccept"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lab3Z2</string>
+    <string-array name="words">
+    <item>hi</item>
+    <item>cat</item>
+    <item>name</item>
+    <item>country</item>
+    <item>computer</item>
+    <item>irc</item>
+    <item>hat</item>
+    <item>wow</item>
+    <item>Berlin</item>
+    <item>fly</item>
+    <item>airplane</item>
+    <item>cow</item>
+    <item>maps</item>
+    <item>make</item>
+    <item>run</item>
+    <item>sigh</item>
+    <item>golf</item>
+    <item>running</item>
+    <item>hat</item>
+    <item>television</item>
+    <item>games</item>
+    <item>hangman</item>
+    <item>pearl</item>
+    <item>cat</item>
+    <item>dog</item>
+    <item>snake</item>
+    <item>black</item>
+    <item>white</item>
+    <item>cabin</item>
+    <item>trees</item>
+    <item>birds</item>
+    <item>animals</item>
+    </string-array>
+</resources>
