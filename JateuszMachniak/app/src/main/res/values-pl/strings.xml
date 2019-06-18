@@ -1,0 +1,48 @@
+<resources>
+    <string name="cancel">Anuluj</string>
+
+    <!--LOGIN SCREEN-->
+    <string name="title_activity_main">Ekran logowania</string>
+    <string name="login">Nazwa użytkownika</string>
+    <string name="password">Hasło</string>
+    <string name="remember">Zapamiętaj mnie</string>
+    <string name="sign_in">Zaloguj</string>
+
+    <!--FILE MANAGER-->
+    <string name="title_activity_file_manager">Pliki</string>
+
+    <!--  SETTINGS  -->
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="settings_language">Język</string>
+    <string name="settings_theme">Motyw</string>
+    <string name="settings_logout">Wyloguj</string>
+    <string name="settings_language_choose">Wybierz język</string>
+    <string name="theme_dark">Ciemny</string>
+    <string name="theme_light">Jasny</string>
+    <string name="theme_contrast">Kontrast</string>
+
+    <!--CONSTANTS -->
+    <string-array name="languages">
+        <item>Polski</item>
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Ciemny motyw</item>
+        <item>Jasny motyw</item>
+        <item>Wysoki kontrast</item>
+    </string-array>
+
+    <string name="server">Adres serwera</string>
+    <string name="size">Rozmiar:</string>
+    <string name="upload_error">Błąd przesyłania pliku</string>
+    <string name="incorrect_credentials">Nieprawidłowy login/hasło lub adres</string>
+    <string name="accept">Akceptuj</string>
+    <string name="folder_name">Nazwa nowego folderu</string>
+    <string name="folder_error">Nazwa folderu powinna pasować do wyrażenia [a–zA–Z0–9]+</string>
+    <string name="hint">Poprawna nazwa folderu</string>
+    <string name="removal">Czy na pewno chcesz usunąć $name?</string>
+    <string name="delete">Usuń</string>
+</resources>

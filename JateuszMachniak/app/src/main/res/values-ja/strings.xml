@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_main">ログイン画面</string>
+    <string name="remember">入力情報を記憶する</string>
+    <string name="sign_in">ログイン</string>
+    <string name="accept">決定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="folder_error">フォルダー名を正しく入力してください　[a-zA-Z0-9]+</string>
+    <string name="folder_name">新しいフォルダー名</string>
+    <string name="hint">フォルダー名</string>
+    <string name="incorrect_credentials">ユーザー名/パスワードが間違っています</string>
+    <string name="login">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="removal">$name を削除してもよろしいでしょうか?</string>
+    <string name="server">サーバーアドレス</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_language_choose">言語選択</string>
+    <string name="settings_logout">ログアウト</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="theme_dark">まっくろくろすけ</string>
+    <string name="theme_light">夜神ライト</string>
+    <string name="size">ファイル容量</string>
+    <string name="theme_contrast">コントラスト</string>
+    <string name="title_activity_file_manager">ファイルバイル</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="upload_error">ファイルのアップロード中にエラーが起こりました</string>
+
+    <string-array name="languages">
+        <item>日本語</item>
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Polski</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Dark Theme</item>
+        <item>Light Theme</item>
+        <item>High contrast</item>
+    </string-array>
+</resources>
